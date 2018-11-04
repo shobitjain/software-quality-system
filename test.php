@@ -1,4 +1,5 @@
 <?php
+
 // First test case : Access to student historical data
 include_once('service/mysqlcon.php');
 $sql="SELECT usertype FROM users WHERE userid='st-123-1'";
